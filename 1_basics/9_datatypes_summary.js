@@ -2,7 +2,7 @@
 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt.
 */
 const score = 100
-const scoreValue = 100.3 
+const scoreValue = 100.3  //float is treated as number in js.
 
 const isLoggedIn = false
 const outsideTemp = null
@@ -25,3 +25,8 @@ const myFunction = function(){
 console.log(typeof myFunction);
 console.log(typeof heros);
 console.log(typeof myobj);
+console.log(typeof id);
+console.log(typeof isLoggedIn);
+console.log(typeof bigNumber);
+console.log(typeof outsideTemp);
+console.log(typeof scoreValue);
